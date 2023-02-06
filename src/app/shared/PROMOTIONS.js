@@ -1,39 +1,39 @@
-import breadCrumbImg from '../assets/img/breadcrumb-trail.jpg';
+import boxImg from '../assets/img/box.jpg';
 //Photo by Jonny Caspari on Unsplash
-import weedsImg from '../assets/img/weeds.jpg';
+import madefreshImg from '../assets/img/madefresh.jpg';
 // Photo by LoboStudio Hamburg on Unsplash
-import bootsImg from '../assets/img/boots.jpg';
+import donutsImg from '../assets/img/donuts.jpg';
 // Photo by Jonathan Gallegos on Unsplash
-import asyncImg from '../assets/img/mount-promise.jpg';
+import coffeeImg from '../assets/img/coffee.jpg';
 
 export const PROMOTIONS = [
     {
         id: 0,
-        name: 'Mountain Adventure',
-        image: breadCrumbImg,
+        name: 'Dozens of donut selections',
+        image: donutsImg,
         featured: true,
         description:
-            'Book a 5-day mountain trek with a seasoned outdoor guide! Fly fishing equipment and lessons provided.'
+            'Made from scratch daily, the donuts here at our shop are on a mission to satisfy you and your familys tasty cravings… just the way you like it!'
     },
     {
         id: 1,
-        name: 'Into The Weeds',
-        image: weedsImg,
-        featured: false,
+        name: 'Get your freshh Coffee',
+        image: coffeeImg,
+        featured: true,
         description:
-            '5 days deep in the Redux National Monument, far from the beaten path, with only a reducer in your backpack. Guide provided.'
+            'Coffee to donut is like jelly to peanut butter. You can have them separately, but whats the point? Grab a cup of our freshly roasted coffee with your donut, kick back, and relax!.'
     },
     {
         id: 2,
         name: 'Bootstrap Teardown',
-        image: bootsImg,
+        image: boxImg,
         featured: false,
         description: `In this weekend workshop, we'll rebuild your bootstraps from scratch, so you're ready for next-level excursions.`
     },
     {
         id: 3,
         name: 'Asynchronous Rendezvous',
-        image: asyncImg,
+        image: madefreshImg,
         featured: false,
         description:
             'Meet up with your guide at the top of Promise Mountain. Or, try to. Good luck!'
