@@ -6,7 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ContactPage from './pages/ContactPage';
 import DonutsiteDetailPage from './pages/DonutsiteDetailPage';
-import BootstrapCarousel from './components/BootstrapCarousel';
+
 
 
 
@@ -21,7 +21,6 @@ function App() {
             <Route path='directory' element={<DonutsitesDirectoryPage />} />
             <Route path='directory/:donutsiteId' element={<DonutsiteDetailPage />} />
           </Routes>
-          <BootstrapCarousel />
           <Footer />
       </div>
   );

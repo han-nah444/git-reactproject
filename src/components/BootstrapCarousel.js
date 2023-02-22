@@ -8,7 +8,7 @@ export default function BootstrapCarousel() {
         <Carousel.Item>
           <img
             className="d-block"
-            src="img/sale.jpg"
+            src= "C:\Users\Hannah\Documents\React Project\donutsite\src\app\assets\img\sale.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
